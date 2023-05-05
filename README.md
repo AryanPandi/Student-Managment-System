@@ -4,4 +4,4 @@ For the requirements for the project are XAMPP Server and MYSQL.
 
 All feature like repopulation of form, session handling , concept of cookie,form handling techniques, regex and form validations are implemented in this project.
 
-For the database part Tables like student,admin,class,fee_payments were created. And the foreign key contraint is applied were if any class is deleted then the subsequent students ill also get deleted.
+For the database part Tables like student,admin,class,fee_payments were created. And the foreign key contraint is applied were if any class is deleted then the subsequent students ill also get deleted.If any student record is deleted then the fee-records related to that student will also get deleted.
