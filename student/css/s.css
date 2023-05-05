@@ -1,0 +1,48 @@
+.navbar{
+    height: 100px;
+}
+html, body {
+    height: 100%;
+  }
+  .content {
+    min-height: calc(100% - 100px); /* 100px is the height of the footer */
+    overflow: auto;
+  }
+  .footer {
+    height: 100px;
+    background-color: #ccc;
+  }
+  main {
+    flex: 1;
+  }
+body{
+    background: url("../images/banner.jpg");
+background-size:cover;
+min-height:650px;
+padding-top:0em !important;
+text-align:center;
+display: flex;
+flex-direction: column;
+}
+nav .logo{
+width: 80px;
+cursor: pointer;
+}
+nav ul{
+flex: 1;
+text-align: right;
+margin-right: 40px;
+}
+nav ul li{
+list-style: none;
+display: inline-block;
+margin: 10px 20px;
+}
+nav ul li a{
+text-decoration: none;
+color: red;
+font-weight: 700;
+position: relative;
+padding: 5px;
+font-size: x-large;
+}
