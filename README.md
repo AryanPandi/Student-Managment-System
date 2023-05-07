@@ -9,4 +9,3 @@ For the database part Tables like student,admin,class,fee_payments were created.
 For class-student foreign key class ID i primary key in class and Foreign key in student is studentclass, and for student-fee foreign key studentID i primary key in student table and foreign key student_id in fee table.
 
 
-ALTER TABLE `fee table` ADD FOREIGN KEY (`student_id`) REFERENCES `student`(`studenID`) ON DELETE CASCADE ON UPDATE CASCADE;
